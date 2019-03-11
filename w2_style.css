@@ -1,0 +1,132 @@
+#bar{
+  position: fixed;
+  width: 75%;
+  height: 70px;
+  margin-left: 10%;
+  background-color: #000000;
+  z-index: 2;
+}
+
+ul.top_bar{
+  display: inline-block;
+  position: fixed;
+  left: 450px;
+  margin: auto;
+  width: 450px;
+  height: 70px;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+
+
+#r{
+  float: left;
+}
+
+
+
+
+#r{
+  display: inline-block;
+  width: 100px;
+  font-family: courier;
+  font-size: 15px;
+  color: #ffffff;
+  padding: 20px;
+  text-align: right;
+  text-decoration: none;
+}
+
+#left_mark{
+  position: absolute;
+  top: 17px;
+  left: 10px;
+  font-family: courier;
+  color: #ffffff;
+  font-size: 36px;
+}
+
+
+
+
+
+
+
+#outsideblock{
+  background-color:#bebebe;
+  width:800px;
+
+  padding:100px;
+}
+
+#insideblock{
+  background-color:#888888;
+  height:400px;
+
+
+}
+
+#middle{
+  font-size:25px;
+  position:relative;
+  left:35px;
+  top:100px;
+  width:40%;
+  text-align:center;
+  color:  white;
+
+}
+
+#leftmiddle{
+  font-size:16px;
+  position:relative;
+  top:210px;
+  left:35px;
+  color:white;
+}
+
+#rightmiddle{
+ font-size:12px;
+ position:relative;
+ top: 120px;
+ left: 540px;
+ color: white;
+}
+
+#image1{
+position:absolute;
+top:75px;
+left:380px;
+}
+
+#socialMedia{
+  display:inline-block;
+  position:absolute;
+  left:77%;
+  bottom:0%;
+  z-index:1;
+}
+
+.socialMediaNavigate:link, .socialMediaNavigate:visited, .socialMediaNavigate:hover, 
+.socialMediaNavigate:active{
+  text-decoration:none;
+}
+
+.socialMediaNavigate{
+  width:24px;
+  height:24px;
+}
+
+#facebookIcon, #twitterIcon{
+  width:20px;
+  height:20px;
+  margin:auto;
+}
+
+
+#youtubeIcon{
+  width:20px;
+  height:20px;
+  margin:auto;
+}
